@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flexyla.eatwell.DejeunerFragment">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/list"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="Un déjeuner dense: A midi sont sécrétées des protéases et des amylases,  destinées à mettre en place les protéines cellulaires et  à stocker les réserves protéiniques." />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* 1 portion de légumes (80 à 100 g) : en crudités et/ou accompagnement du plat principal." />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* De la viande, du poisson ou des œufs (environ 100 g)." />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* Des féculents : pain complet, riz, pomme de terre au four, pâtes, lentilles, etc." />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* 1 portion de produit laitier : fromage (30 g), un yaourt, un fromage blanc, etc." />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* 1 fruit en dessert : en quartier, en compote, etc." />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* De l’eau à volonté : c’est la boisson incontournable à table !" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

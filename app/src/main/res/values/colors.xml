@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="colorPrimary" type="color">#FF9800</item>
+    <item name="colorPrimaryDark" type="color">#F57C00</item>
+    <item name="colorPrimaryLight" type="color">#FFE0B2</item>
+    <item name="colorAccent" type="color">#FFC107</item>
+    <item name="colorText" type="color">#212121</item>
+    <item name="colorTextSecondary" type="color">#727272</item>
+    <item name="colorBody" type="color">#E9EAED</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorPrimaryLight</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorText</item>
+        <item>@color/colorTextSecondary</item>
+        <item>@color/colorBody</item>
+    </integer-array>
+
+</resources> 

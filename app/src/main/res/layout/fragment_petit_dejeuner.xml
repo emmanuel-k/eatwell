@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flexyla.eatwell.PetitDejeunerFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/list"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="Un petit-déjeuner gras (insuline, lipases, protéases): le petit doit être
+         copieux et gras" />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="Produit céréalisé: Du pain (complet, idéalement) ou des céréales, en favorisant les moins sucrées. On réserve les croissants et autres viennoiseries pour des occasions ponctuelles car ils contiennent beaucoup de matières grasses et de sucre." />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="Quel produit laitier ? Un bol ou un verre de lait (froid ou chaud), un yaourt ou un fromage blanc et pourquoi pas une part de fromage." />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="Fruit : Kiwi, pêche, banane, abricots, orange, pomme, etc. en fonction des saisons, un jus de fruit pressé ou un 100 % pur jus, une compote ou un smoothie sans sucres ajoutés, etc." />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="Boisson : Café, thé, eau ou un chocolat chaud qui compte à la fois comme une boisson et un produit laitier. " />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

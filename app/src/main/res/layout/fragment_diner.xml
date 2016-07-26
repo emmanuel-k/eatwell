@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flexyla.eatwell.DinerFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/list"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="Un dîner léger Le soir venu, il n’y a presque plus de sécrétions digestives, ce qui ralentit l’assimilation des aliments." />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* poisson maigre" />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* fruits de mer à volonté" />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* 120 g de viande blanche, sans sauce" />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* 1 petit bol chinois de légumes." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

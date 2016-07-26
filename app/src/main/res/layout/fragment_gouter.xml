@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.flexyla.eatwell.GouterFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/list"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="Un goûter sucré En milieu d’après-midi apparaît un pic d’insuline dont l’objectif est d’utiliser  des sucres destinés à compenser la fatigue liée au fonctionnement des organes. Un bon goûter doit donc apporter des sucres et du gras végétal:" />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* 30g de chocolat noir" />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* 1 petit bol chinois de graines (noix, noisette,pistaches...)" />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* 1 petit bol chinois d&apos;olives, avocat" />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* 1 petit bol chinois de fruits secs (raisins, abricots,pruneaux (prune séchée),...)" />
+
+            <TextView
+                style="@style/listAstuce"
+                android:text="* 2 grands verres de jus de fruits naturel." />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
